@@ -1,0 +1,9 @@
+import React from 'react'
+import LottieView from 'lottie-react-native'
+
+
+const Error = () => {
+    return <LottieView source={require('../9930-loading-ring-medium.json')} autoPlay />
+}
+
+export default Error
